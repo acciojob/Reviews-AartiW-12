@@ -60,16 +60,16 @@ export default function Reviews() {
     return (
         <div className="review">
             <img src={image} alt={name} className="person-img"></img>
-            <p id={`author-${id}`} className="author">{name}</p>
+            <h4 id={`author-${id}`} className="author">{name}</h4>
             <p className="job">{job}</p>
             <p className="info">{text}</p>
 
-            <div className="buttons">
-                <button className="prev-btn" onClick={handlePrev}>Prev</button>
-                <button className="next-btn" onClick={handleNext}>Next</button>
-            </div>
+            
+                <button className="prev-btn" onClick={handlePrev}>prev</button>
+                <button className="next-btn" onClick={handleNext}>next</button>
+            
 
-            <button className="random-btn" onClick={handleRandom}>Surprise Me</button>
+            <button className="random-btn" onClick={handleRandom}>surprise me</button>
 
         </div>
     )
