@@ -5,7 +5,7 @@ import Reviews from "./Reviews";
 const App = () => {
   return (
     <main>
-        <section class="container" id="review-heading">
+        <section className="container" >
             <h2 id="review-heading">Our Reviews</h2>
             <Reviews />
         </section>

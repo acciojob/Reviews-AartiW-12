@@ -59,7 +59,7 @@ export default function Reviews() {
     }
     return (
         <div className="review">
-            <img src={image} className="person-img"></img>
+            <img src={image} alt={name} className="person-img"></img>
             <p id={`author-${id}`} className="author">{name}</p>
             <p className="job">{job}</p>
             <p className="info">{text}</p>
